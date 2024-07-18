@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Dependency directory
+/bower_components/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# WebStorm
+.idea
+
+# Text file created by JetBrains IDE
+*.iml
+
+# ESLint
+.eslintcache
+
+# Prettier
+node_modules
+.prettierignore
+.prettierrc
+
+# Compiled output
+dist/
