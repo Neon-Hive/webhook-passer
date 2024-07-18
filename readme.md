@@ -43,22 +43,6 @@ npm run dev
 
 The server will start on the specified port (default is 3000) and listen for incoming POST requests at `/webhook-passer`.
 
-### Server/Live
-
-```
-npm run build
-```
-
-This will build the app into /dist to run on a server. Assuming node env is setup with all configurations needed.
-
-### Running Live
-
-```
-npm run start
-```
-
-Built script will run from /dist/server.js
-
 ## Example Request
 
 Handle any tokens or credentials for each domain independently. This repo does not have this yet as hooks were exposed to regular requests without need for auth.
