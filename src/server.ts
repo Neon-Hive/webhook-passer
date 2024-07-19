@@ -1,6 +1,7 @@
 import express from 'express';
 import axios from 'axios';
 import bodyParser from 'body-parser';
+require('dotenv').config()
 
 const envs = process.env as Record<string, string>
 const app = express();
