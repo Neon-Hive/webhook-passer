@@ -16,6 +16,8 @@ const targetUrls: string[] = [envs.DOMAIN_A, envs.DOMAIN_B];
 app.post('/webhook-passer', async (req, res) => {
   const data = req.body;
 
+  console.log('payload', req);
+  
   try {
     // Create an array of promises for concurrent requests
     const requests = targetUrls.map(async url => {
